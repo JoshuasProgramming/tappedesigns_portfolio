@@ -107,7 +107,8 @@ body{
                 margin-left: 19%;
 
                 &:hover{
-                    filter: grayscale(100%);
+                    filter: grayscale(80%);
+                    cursor: pointer;
                 }
             }
         }
