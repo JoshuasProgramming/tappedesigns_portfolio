@@ -80,14 +80,13 @@ body{
                         cursor: pointer;
                     }
                 }
-
-                
-
+                .current-page{
+                    color: black;
+                }
             }
         }
     }
 }
-
 
 .main-section{
 
@@ -109,6 +108,27 @@ body{
                 &:hover{
                     filter: grayscale(80%);
                     cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:415px) {
+    .main-section{
+        .parent{
+            .image-grid-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                img{
+                    margin: 0px 0px 5% 0px;
+                }
+
+                img:nth-child(1){
+                    margin-top: 25%;
                 }
             }
         }
