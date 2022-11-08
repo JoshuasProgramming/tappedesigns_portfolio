@@ -72,6 +72,9 @@ body {
 .nav .right-nav ul li .current-page {
   color: black;
 }
+.nav .hamburger-icon {
+  display: none;
+}
 
 .main-section .parent .image-grid-container {
   display: grid;
@@ -92,6 +95,18 @@ body {
 }
 
 @media screen and (max-width: 415px) {
+  .nav {
+    justify-content: space-around;
+  }
+  .nav .right-nav {
+    display: none;
+  }
+  .nav .hamburger-icon {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    margin: auto 20px;
+  }
   .main-section .parent .image-grid-container {
     display: flex;
     align-items: center;

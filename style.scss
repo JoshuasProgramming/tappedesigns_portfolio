@@ -86,6 +86,10 @@ body{
             }
         }
     }
+
+    .hamburger-icon{
+        display: none;
+    }
 }
 
 .main-section{
@@ -115,6 +119,23 @@ body{
 }
 
 @media screen and (max-width:415px) {
+
+    .nav{
+        justify-content: space-around;
+
+        .right-nav{
+            display: none;
+        }
+
+        .hamburger-icon{
+            display: inline;
+            width: 35px;
+            height: 35px;
+            margin: auto 20px;
+        }
+
+    }
+
     .main-section{
         .parent{
             .image-grid-container{
