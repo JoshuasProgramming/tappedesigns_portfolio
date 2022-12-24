@@ -141,6 +141,14 @@ body{
     }
 }
 
+.hamburger-menu{
+    display: none;
+
+    .current-page{
+        color: black;
+    }
+}
+
 @media screen and (max-width:999px) {
 
     .nav{
@@ -192,6 +200,39 @@ body{
             transition: ease-in 0.5ms;
             color: black;
             line-height: 1.9;
+        }
+    }
+
+    .hamburger-menu{
+        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: -webkit-fill-available;
+        background: #f0d479;
+        height: -webkit-fill-available;
+        position: fixed;
+        display: none;
+
+        li{
+            list-style: none;
+            font-size: 60px;
+            color: blue;
+        }
+
+        li:nth-child(1){
+            padding-bottom: 4%;
+        }
+
+        li:nth-child(2){
+            padding-top: 4%;
+        }
+
+        li:hover{
+            cursor: pointer;
+            transition: ease-in .5;
+            color: black;
         }
     }
 }
