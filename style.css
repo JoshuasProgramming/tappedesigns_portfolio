@@ -114,7 +114,7 @@ body {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 999px) {
   .nav {
     justify-content: space-around;
   }
