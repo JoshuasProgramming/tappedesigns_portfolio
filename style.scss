@@ -219,6 +219,12 @@ body{
             list-style: none;
             font-size: 60px;
             color: blue;
+            list-style:none;
+
+            a{
+                color: blue;
+                text-decoration: none;
+            }
         }
 
         li:nth-child(1){
@@ -230,9 +236,12 @@ body{
         }
 
         li:hover{
-            cursor: pointer;
-            transition: ease-in .5;
-            color: black;
+
+            a{
+                cursor: pointer;
+                transition: ease-in .5;
+                color: black;
+            }
         }
     }
 }
