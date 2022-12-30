@@ -91,6 +91,10 @@ body{
     .hamburger-icon{
         display: none;
     }
+
+    .hamburger-icon:hover{
+        cursor: pointer;
+    }
 }
 
 .main-section{
